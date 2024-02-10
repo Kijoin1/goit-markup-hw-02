@@ -5,7 +5,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #2e2f42;
+color: #434455;
 background: #fff;
 }
 
@@ -13,14 +13,13 @@ ul {
 list-style-type: none;
 }
 
+address {
+    font-style: normal
+}
+
 a {
 text-decoration: none;
 color: inherit;
-font-style: normal;
-}
-
-img {
-display: block;
 }
 
 footer {
@@ -33,17 +32,17 @@ background: #2e2f42;
 font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
-line-height: 1.16667;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #2e2f42;
-}
-
-.web-span {
 color: #4d5ae5;
 }
 
-.studio-span {
+.studio-span-header {
+color: #2e2f42;
+}
+
+.studio-span-footer {
 text-transform: uppercase;
 color: #f4f4fd;
 }
@@ -62,13 +61,14 @@ color: #2e2f42;
 color: #404bbf;
 }
 
-.studio-link:active {
-
-}
-
 .contacts-links {
 font-family: "Roboto", sans-serif;
 color: #434455;
+}
+
+.contacts-links:hover,
+.contacts-links:focus {
+color: #404bbf
 }
 
 .section-effective-solutions{
@@ -76,28 +76,38 @@ background: #2e2f42;
 
 }
 
-.page-h1 {
+.page-h {
 font-weight: 700;
 font-size: 56px;
-line-height: 1.07143;
+line-height: 1.07;
+letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
 }
 
-.button-h1 {
+.button-h {
 color: #fff;
 background: #4d5ae5;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+cursor: pointer;
 }
 
-.button-h1:hover,
-.button-h1:focus{
+.button-h:hover,
+.button-h:focus{
 background: #404bbf;
 }
 
-.portfolio-h3 {
+.portfolio-h {
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
+color: #2e2f42;
+}
+
+.portfolio-desc {
+    letter-spacing: 0.02em
 }
 
 .portfolio-sub {
@@ -105,15 +115,17 @@ color: #434455;
 }
 
 .section-our-team{
-background: #f4f4fd;
+background-color: #FFFFFF;
 }
 
-.our-team-h2{
+.our-team-h{
 font-weight: 700;
 font-size: 36px;
-line-height: 1.11111;
+line-height: 1.11;
 text-transform: capitalize;
 text-align: center;
+letter-spacing: 0.02em;
+color: #2e2f42;
 }
 
 .our-team-names {
@@ -121,6 +133,8 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 text-align: center;
+letter-spacing: 0.02em;
+color: #2e2f42;
 }
 
 .our-team-desc {
@@ -128,18 +142,22 @@ text-align: center;
 color: #434455;
 }
 
-.our-portfolio-h2 {
+.our-portfolio-h {
 font-weight: 700;
 font-size: 36px;
-line-height: 1.11111;
+line-height: 1.11;
 text-transform: capitalize;
 text-align: center;
+letter-spacing: 0.02em;
+color: #2e2f42;
 }
 
 .our-portfolio-title{
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
 }
 
 .our-portfolio-sub{
